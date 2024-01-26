@@ -1,0 +1,11 @@
+.poster {
+    margin-top: 0;
+    padding: 0;
+    width: 390px;
+    height: 462px;
+}
+.ImageContainer {
+    margin-top: -35px;
+    margin-left: -35px;
+    margin-right: -35px;
+}

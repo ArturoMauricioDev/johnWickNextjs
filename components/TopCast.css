@@ -1,0 +1,12 @@
+.TopCast {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+    color: #6a536a;
+}
+.Actors {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 25px;
+}

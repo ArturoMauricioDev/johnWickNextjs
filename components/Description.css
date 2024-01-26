@@ -1,0 +1,15 @@
+.description {
+    width: 297px;
+    height: 56px;
+    top: 516px;
+    left: 47px;
+    font-family: "Istok Web", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.descriptionContainer {
+    text-align: center;
+}

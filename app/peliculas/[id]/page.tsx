@@ -1,9 +1,7 @@
 import Button from "@/components/Button";
 import Chip from "@/components/Chip";
-import MovieList from "@/components/MovieList";
 import TopImage from "@/components/Poster";
 import Resume from "@/components/Resume";
-import SearchBar from "@/components/SearchBar";
 import TopCast from "@/components/TopCast";
 
 async function getData() {
@@ -19,14 +17,18 @@ async function getData() {
   return res.json();
 }
 
-export default async function Home() {
+export default async function page({ params }: { params: { id: string } }) {
   const data = await getData();
-  console.log(data);
-
+  // console.log(data);
+  const movie = data.find((movie: any) => movie.id === params.id);
+  // console.log(movie);
   return (
-    <main className="flex flex-col items-center justify-between">
-      <SearchBar />
-      <MovieList movies={data} />
+    <main className="flex min-h-screen flex-col items-center justify-between">
+      <TopImage movie={movie} />
+      <Chip movie={movie} />
+      <Resume movie={movie} />
+      <TopCast movie={movie} />
+      <Button />
     </main>
   );
 }

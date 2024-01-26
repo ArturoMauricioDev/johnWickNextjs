@@ -1,0 +1,11 @@
+.ChipContainer {
+    text-align: center;
+}
+.Chip {
+    display: inline-block;
+    border: 1px solid #6a536a;
+    color: #6a536a;
+    border-radius: 16px;
+    margin: 20px;
+    font-size: 11px;
+}

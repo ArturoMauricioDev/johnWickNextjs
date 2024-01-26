@@ -1,0 +1,60 @@
+[
+  {
+    "name": "John Wick 4",
+    "imgPoster": "https://i24.servimg.com/u/f24/20/54/38/84/output10.jpg",
+    "synopsis": "John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.",
+    "category": ["Action", "Crime", "Thriller"],
+    "characters": [
+      {
+        "name": "Marko Zaror ",
+        "cast": "Chidi",
+        "img": "https://i24.servimg.com/u/f24/20/54/38/84/mv5bng10.jpg"
+      },
+      {
+        "name": "Bill Skarsgard",
+        "cast": "Marquis",
+        "img": "https://i24.servimg.com/u/f24/20/54/38/84/mv5bng11.jpg"
+      },
+      {
+        "name": "Keanu Reeves",
+        "cast": "John Wick",
+        "img": "https://i24.servimg.com/u/f24/20/54/38/84/mv5bng12.jpg"
+      },
+      {
+        "name": "Hiroyuki Sanada",
+        "cast": "Shimazu",
+        "img": "https://i24.servimg.com/u/f24/20/54/38/84/mv5bng13.jpg"
+      },
+      {
+        "name": "Brahim Chad",
+        "cast": "Thug 1",
+        "img": "https://i24.servimg.com/u/f24/20/54/38/84/mv5bng14.jpg"
+      }
+    ],
+    "favorities": ["Top", "Comming soon"]
+  },
+  {
+    "name": "¡Shazam!",
+    "imgPoster": "https://i24.servimg.com/u/f24/20/54/38/84/output10.jpg",
+    "synopsis": "Is a2019 American superhero film based on the DC Comics character of the same name . It is the seventh installment within the DC Extended Universe (DCEU). The film is directed by David F. Sandberg from a screenplay by Henry Gayden and a story by Gayden and Darren Lemke, and stars Asher Angel as Billy Batson , a teenager who can transform himself using the magic word Shazam into a adult superhero played by Zachary Levi .",
+    "category": ["Action", "Comedy", "Superheroes", "Fancy"],
+    "characters": [
+      {
+        "name": "Zachary Levi",
+        "cast": "Shazam",
+        "img": "https://i24.servimg.com/u/f24/20/54/38/84/mv5bng10.jpg"
+      },
+      {
+        "name": "Asher Angel",
+        "cast": "William Billy Batson",
+        "img": "https://i24.servimg.com/u/f24/20/54/38/84/mv5bng11.jpg"
+      },
+      {
+        "name": "Mark Strong",
+        "cast": "Dr. Thaddeus Sivana",
+        "img": "https://i24.servimg.com/u/f24/20/54/38/84/mv5bng12.jpg"
+      }
+    ],
+    "favorities": ["Top", "Action"]
+  }
+]
