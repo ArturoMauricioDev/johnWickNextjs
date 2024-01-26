@@ -1,3 +1,4 @@
+import Link from "next/link";
 import ImgMovie from "./ImgMovie";
 
 function MovieList({ movies }: any) {
@@ -5,10 +6,11 @@ function MovieList({ movies }: any) {
     <div className="flex">
       {movies.map((movie: any) => {
         return (
-          <ImgMovie key={movie.id} img={movie.imgPoster} name={movie.name} />
+          <Link href={`/peliculas/${movie.id}`}>
+            <ImgMovie key={movie.id} img={movie.imgPoster} name={movie.name} />
+          </Link>
         );
       })}
-      <ImgMovie />
     </div>
   );
 }
